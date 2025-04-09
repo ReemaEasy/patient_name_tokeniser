@@ -18,7 +18,7 @@ This Go script is used to update encrypted patient information in the `rx` colle
 ## Configuration
 
 Update the MongoDB connection URL before running the script.
-use command to run the script : go run main.go 
+use command to run the script : go run main.go.
 In `main.go`, modify the MongoDB URL:
 ```go
 mongoURI := "<your-mongo-db-url>"
